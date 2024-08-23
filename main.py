@@ -44,6 +44,6 @@ class Bot(BaseBot):
 
 
 if __name__ == "__main__":
-    room_id = authorization.room
-    token = authorization.token
+    room_id = "66adf87277d870038c4e16b6" 
+    token = "551b793b034fd6b8b27f41ec441f2f13f8b2ecc07fa617bf318069b50cd87e77" 
     arun(Bot().run(room_id, token))
